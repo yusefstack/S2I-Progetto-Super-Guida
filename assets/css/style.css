@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    max-width: 80px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: "Varela Round", sans-serif;
+    text-align: center;
+    padding: 8em 12em 2em;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #6D6D6D;
+}
+.space-1 {
+    padding: 10em;
+}
+
+.mini-container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    font-family: "Varela Round", sans-serif;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 380px;
+    border-radius: 0.5em;
+}
+
+.topleft {
+    position: absolute;
+    font-size: 3vw;
+    top: -3.3vw;
+    left: 1vw;
+}
+
+.space-2 {
+    padding: 1em;
+}
+
+.crd-1 {
+    background-color: teal;
+}
+
+.crd-2 {
+    background-color:skyblue;
+}
+
+.crd-3 {
+    background-color:slateblue
+}
+
+.crd-4 {
+    background-color: slategrey;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.mini-container-1 {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1 {
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+}
+
+.cards-space {
+    display: flex;
+    justify-content: space-evenly;
+}
