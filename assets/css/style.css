@@ -24,6 +24,10 @@
     padding: 10em;
 }
 
+.container-mobile {
+    display: none;
+}
+
 .mini-container {
     position: relative;
     max-width: 900px;
@@ -131,4 +135,82 @@
 .underline {
     font-size: 150px;
     line-height: 0;
+}
+
+@media screen and (max-width: 900px) and (min-width: 200px) {
+    .nav {
+        width: 100%;
+    }
+
+    .text {
+        padding: 50px 40px;
+        text-align: justify;
+        line-height: 1.7;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .container-mobile {
+        display: block;
+        font-family: "Varela Round", sans-serif;
+    }
+
+    .container-mobile img {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 500px;
+        height: 90%;
+        max-height: 500px;
+        border-radius: 15px;
+    }
+
+    .mini-container-mobile {
+        position: relative;
+    }
+
+    .topleft {
+        font-size: 10vw;
+        top: -16.3vw;
+        left: 1vw;
+    }
+
+    .cards-space {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .mini-container-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts, .my-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .my-image {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 }
