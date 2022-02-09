@@ -15,10 +15,26 @@
 .text {
     font-family: "Varela Round", sans-serif;
     text-align: center;
-    padding: 8em 12em 2em;
-    font-size: 18px;
+    width: 100%;
+    max-width: 900px;
+    font-size: 25px;
     line-height: 1.5em;
     color: #6D6D6D;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.button-down {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.button-down img{
+    display: block;
+    width: 100%;
+    max-width: 35px;
+    height: 35px;
+    margin: 0 auto;
 }
 .space-1 {
     padding: 10em;
@@ -124,17 +140,29 @@
     border-bottom-right-radius: 10px;
 }
 
+.my-image img {
+    width: 100%;
+    width: 500px;
+    height: 450px;
+    
+}
+
 .mini-container-2 {
     display: flex;
 }
 
 .email {
-    font-size: 40px;
+    font-size: 4vw;
+    
 }
 
 .underline {
     font-size: 150px;
     line-height: 0;
+}
+
+.container-2 a {
+    color: transparent;
 }
 
 @media screen and (max-width: 900px) and (min-width: 200px) {
@@ -212,5 +240,27 @@
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .my-image img {
+        width: 100%;
+        width: 950vw;
+        max-width: 312.30px;
+        height: 95vw;
+        max-height: 312.30px;
+    }
+
+    .email {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .email {
+        font-size: 65px
     }
 }
